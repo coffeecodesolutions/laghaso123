@@ -4,6 +4,7 @@ const imgLogo = document.querySelector("figure img");
 btnSwitch.addEventListener('click', () => {
 	document.body.classList.toggle('dark');
 	btnSwitch.classList.toggle('active');
+	imgLogo.src="./imagenes/coffecode.png";
 	// Guardamos el modo en localstorage.
 
 	if (document.body.classList.contains('dark')){
